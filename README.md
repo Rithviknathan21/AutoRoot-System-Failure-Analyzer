@@ -1,23 +1,37 @@
-# AutoRoot – System Failure Analyzer
+# 🚀 AutoRoot – System Failure Analyzer
 
-AutoRoot is an AI-powered system failure analysis tool designed to simulate how SRE and DevOps teams detect anomalies and identify root causes in production environments.
+AutoRoot is an **AI-powered system failure analysis tool** that simulates how modern **SRE / DevOps teams** detect anomalies and identify root causes in production systems.
 
-## What it does
-- Generates system telemetry (CPU, memory, latency, error rate)
-- Detects anomalies using an ML model (Isolation Forest)
-- Correlates metrics to infer probable root causes
-- Exposes inference through a backend API
-- Provides an interactive web dashboard for analysis
+---
 
-## Tech Stack
-- Python, Pandas, NumPy
-- Scikit-learn (Isolation Forest)
-- FastAPI (backend API)
-- Streamlit (dashboard)
-- Google Colab + Ngrok (deployment)
+## 🔍 What This Project Does
+- 📊 Generates **synthetic system telemetry** (CPU, Memory, Latency, Error Rate)
+- 🤖 Detects anomalies using **unsupervised ML (Isolation Forest)**
+- 🧠 Correlates system metrics to infer **probable root causes**
+- 🔗 Serves predictions via a **FastAPI backend**
+- 🖥️ Provides an **interactive Streamlit dashboard** for analysis
 
-## Use Case
-Designed as a simulation of real-world AI-based observability and incident analysis systems used in SRE workflows.
+---
 
-## Author
-Rithviknathan M
+## 🛠️ Tech Stack
+- 🐍 Python, Pandas, NumPy  
+- 🤖 Scikit-learn (Isolation Forest)  
+- ⚡ FastAPI (Backend API)  
+- 🎛️ Streamlit (Frontend Dashboard)  
+- ☁️ Google Colab + Ngrok (Deployment)
+
+---
+
+## 🎯 Why This Project?
+This project demonstrates how **AI can be applied to observability and incident analysis**, similar to tools used in real-world **SRE and DevOps workflows**.
+
+It focuses on:
+- End-to-end system design  
+- ML-driven anomaly detection  
+- Practical AI integration with backend & UI  
+
+---
+
+## 👨‍💻 Author
+**Rithviknathan M**  
+B.Tech CSE (AIML)
