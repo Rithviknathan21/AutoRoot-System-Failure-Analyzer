@@ -1,34 +1,23 @@
 # AutoRoot – System Failure Analyzer
-AI-driven anomaly detection and root cause analysis platform for SRE workflows.
 
-## 🚀 Features
-- Synthetic system telemetry generation (CPU, Memory, Latency, Error Rate)
-- ML-based anomaly detection (Isolation Forest)
-- Root cause correlation across metrics
-- Explainable AI using SHAP
-- FastAPI-based inference service
-- Streamlit dashboard for interactive analysis
-- Production-style artifacts (models, scalers, datasets)
+AutoRoot is an AI-powered system failure analysis tool designed to simulate how SRE and DevOps teams detect anomalies and identify root causes in production environments.
 
-## 🏗 Architecture Overview
-Telemetry Input → Feature Scaling → Anomaly Detection  
-↓  
-Root Cause Correlation → SHAP Explainability  
-↓  
-API Layer → Interactive Dashboard
+## What it does
+- Generates system telemetry (CPU, memory, latency, error rate)
+- Detects anomalies using an ML model (Isolation Forest)
+- Correlates metrics to infer probable root causes
+- Exposes inference through a backend API
+- Provides an interactive web dashboard for analysis
 
-## 🧰 Tech Stack
-- Python
-- Scikit-learn
-- SHAP
-- FastAPI
-- Streamlit
-- Pandas, NumPy
+## Tech Stack
+- Python, Pandas, NumPy
+- Scikit-learn (Isolation Forest)
+- FastAPI (backend API)
+- Streamlit (dashboard)
+- Google Colab + Ngrok (deployment)
 
-## 📊 Dataset
-Synthetic system telemetry generated programmatically for controlled experimentation.
+## Use Case
+Designed as a simulation of real-world AI-based observability and incident analysis systems used in SRE workflows.
 
-## 📌 Use Cases
-- SRE incident analysis
-- System health monitoring
-- Root cause analysis automation
+## Author
+Rithviknathan M
