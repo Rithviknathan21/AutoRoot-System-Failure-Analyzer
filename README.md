@@ -1,3 +1,4 @@
+# AutoRoot – System Failure Analyzer
 AI-driven anomaly detection and root cause analysis platform for SRE workflows.
 
 ## 🚀 Features
